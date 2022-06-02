@@ -1,0 +1,44 @@
+.section {
+  width: 25rem;
+  height: 100vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+  border-radius: 1rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.form > * {
+  margin-bottom: 1rem;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 1.5rem;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding-block: 0.6rem;
+  padding-inline: 1rem;
+}
